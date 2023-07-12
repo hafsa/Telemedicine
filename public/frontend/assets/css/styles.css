@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+a {transition: all ease 0.3s !important; }
+::-webkit-scrollbar {background-color: #fff; width: 10px; } 
+::-webkit-scrollbar-track {background-color: #fff; }
+::-webkit-scrollbar-track:hover {background-color: #f4f4f4; }
+::-webkit-scrollbar-thumb {background-color: #babac0; border-radius: 16px; border: 2px solid #fff; } 
+::-webkit-scrollbar-thumb:hover {background-color: #a0a0a5; border: 2px solid #f4f4f4; } 
+::-webkit-scrollbar-button {display: none; }
+
+
+.custom_check {position: relative; }
+.custom_check input {width: 0; height: 0; opacity: 0; position: absolute; }
+.custom_check label {position: relative; display: flex; flex-wrap: wrap; align-items: center; padding-left: 30px; line-height: normal; }
+.custom_check + .custom_check {margin-top: 12px; }
+.custom_check label:before {content: ''; width: 20px; height: 20px; border: 2px solid #9e9e9e; margin-right: 7px; border-radius: 3px; transition: all 0.3s; display: flex; position: absolute; left: 0; top: 1px; }
+.custom_check label:after {content: '\e876'; font-family: 'Material Symbols Outlined'; font-weight: 900; position: absolute; left: 2px; top: 1px; color: #fff; font-size: 16px; transition: all ease 0.3s; opacity: 0; }
+input:checked + label:after {opacity: 1; }
+input:checked + label:before {border: 10px solid #37c36f; }
+
+/*** docutor detail ***/
+.doctor-image {height: 300px; }
+.doctor-image img {width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.doctor-info-card {border-radius: 16px; }
+.doctor-expertise .chip + .chip {margin-left: 10px; } 
+.action-button svg {margin-right: 10px; fill: #fff; }
+.chip {border: 1px solid #000000; border-radius: 50px; padding: 2px 10px; background-color: #ffffff; }
+.step {display: flex; flex-direction: row; justify-content: flex-start; }
+.step + .step {margin-top: 20px; }
+.step:last-child {overflow: hidden; } 
+.v-stepper {position: relative; }
+.step .circle {background-color: white; border: 3px solid #37c36f; border-radius: 100%; width: 20px; height: 20px; display: inline-block; }
+.step .line {top: 20px; left: 9px; height: 100%; position: absolute; border-left: 3px solid #37c36f; }
+.step.completed .circle {visibility: visible; background-color: #37c36f; border-color: #37c36f; }
+.step.completed .line {border-left: 3px solid #37c36f; }
+.step.active .circle {visibility: visible; border-color: rgb(6, 150, 215); }
+.step.empty .circle {visibility: hidden; }
+.step.empty .line {top: 0; height: 150%; }
+.step:last-child .line {z-index: -1; }
+.content {margin-left: 20px; display: inline-block; }
+.doctor-schedule-section .doctor-image {height: 300px; }
+.ticket-book-detail .btn-group {margin-left: -15px;flex-wrap: wrap;margin-top: -15px;}
+.ticket-book-detail .btn-group .radio-box {width: calc(16.66% - 15px);margin: 15px 0 0 15px;}
+.ticket-book-detail .btn-group .radio-box label.btn {background-color: #fff;border: 1px solid #dcddea;border-radius: 5px;color: #2b2a2a;margin-bottom: 0;padding: 12px 15px;text-align: center;position: relative;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;}
+.ticket-book-detail .btn-group .radio-box .btn-check:checked+.btn-outline-primary {background-color: #37c36f; color: #fff; border-color: #37c36f; }
+.ticket-book-detail .btn-group .radio-box .btn-check:checked+.btn-outline-primary svg path {fill: #fff; }
+.ticket-book-detail .btn-group .radio-box label.btn svg {margin-right: 5px; }
+/****/
+
+.section-padding {padding: 50px 0;}
+.sidebar-main {margin-top: 10px; }
+.doctor-list-col {margin: 10px 0; }
+.doctor-list-main {position: relative; border-radius: 10px; height: 100%; overflow: hidden }
+.doctor-list-main .img-box {display: block; position: relative; height: 240px; }
+.doctor-list-main .img-box:before {content: ""; position: absolute; top: 0; left: 0; right: 100%; bottom: 0; background-color: rgb(0 0 0 / 30%); transition: all ease 0.3s; pointer-events: none; }
+.doctor-list-main:hover .img-box:before {right: 0; }
+.doctor-list-main .content-box .location {position: relative; padding-left: 30px; }
+.doctor-list-main .content-box .location svg {position: absolute; left: 0; }
+.doctor-list-main .img-box img {width: 100%; height: 100%; object-fit: cover; margin: auto; object-position: top center; }
+.symptoms-list-main {position: relative; border-radius: 10px; height: 100%; overflow: hidden }
+.symptoms-list-main .img-box {display: block; position: relative; height: 240px; }
+.symptoms-list-main .img-box:before {content: ""; position: absolute; top: 0; left: 0; right: 100%; bottom: 0; background-color: rgb(0 0 0 / 30%); transition: all ease 0.3s; pointer-events: none; }
+.symptoms-list-main:hover .img-box:before {right: 0; }
+.symptoms-list-main .img-box img {width: 100%; height: 100%; object-fit: cover; margin: auto; object-position: top center; }
+.sidebar-info {border: 1px solid #ebebeb; border-radius: 8px; padding: 15px 15px; }
+.sidebar-info + .sidebar-inf {margin-top: 20px;}
+.sidebar-info + .sidebar-info {margin-top: 15px;}
+.sidebar-info .checkbox-main {padding-top: 6px; }
+.doctor-list-main .content-box {padding: 20px 20px; padding-bottom: 70px; }
+.doctor-list-main .content-box .btn-box {position: absolute; bottom: 15px; left: 15px; right: 15px; }
+.btn-box .btn {text-align: center; position: relative; border-radius: 10px; z-index: 1; border: 0; padding: 12px 20px; overflow: hidden; } 
+.btn-box .btn:hover:before {right: 0;}
+.btn-box button.btn {min-width: 210px; padding: 15px 20px; }
+.btn {transition: all ease 0.3s; }
+.btn-box .btn:before {content: "";position: absolute;top: 0;left: 0;right: 100%;bottom: 0;background-color: #2497e3;z-index: -1;border-radius: 10px;transition: all ease 0.3s;}
+.submit-btn button.btn {text-transform: uppercase;}
+.search-input .input-group input {border-radius: 7px !important; border: 1px solid #ccc; outline: none; box-shadow: none; padding: 9px 13px; line-height: normal; } 
+.rating {display: flex; flex-wrap: wrap; align-items: center; }
+.rating svg {margin-right: 4px; }
+.action-buttons-wrapper, .doctor-booking-info {flex-wrap: wrap; }
+.close-img img {width: 100%; max-width: 160px; height: auto;}
+.doctor-booking-info .icon {position: relative; padding-left: 30px; margin-bottom: 15px; line-height: 1.4; }
+.doctor-booking-info .icon svg {position: absolute; left: 0; top: 0px; }
+.doctor-booking-info .icon:last-child {margin-bottom: 0; }
+.doctor-list-main .content-box .btn {display: block;}
+
+/***** tab ***/
+
+.ticket-book-detail nav .nav {display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; flex-wrap: wrap; border: 0 !important; margin-left: -15px;  margin-top: -15px; }
+.nav-tabs .nav-link, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {border: 1px solid #dcddea; text-transform: uppercase; -ms-flex-preferred-size: 0; flex-basis: 0; -ms-flex-positive: 1; flex-grow: 1; text-align: center; margin: 15px 0 0 15px; font-weight: 600; font-size: 14px; line-height: 1.5; color: #2b2a2a; background-color: #fff; transition: all ease 0.3s; border-radius: 5px; }
+.nav-tabs .nav-link:last-child {margin-right: 0 !important; }
+.doctor-schedule-section .doctor-details {padding: 30px 0; }
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active {background-color: #37c36f; color: #fff; border-color: #37c36f; }
+.tab-content>.tab-pane {border-top: 1px solid #dcddea; margin-top: 15px; padding-top: 15px; }
+
+/**** Home ***/
+.leftnametitlebox p {padding-bottom: 10px;margin-bottom: 15px;}
+.vidclnisetain-info {max-width: 190px;margin: 0 auto;}
+.vidclnisetain-info .icon {background-color: #37c36f;display: flex;flex-wrap: wrap;align-items: center;border-radius: 50%;padding: 20px;min-height: 180px;}
+.vidclnisetain-info .icon img {width: auto;height: auto;max-width: 80%;max-height: 80%;margin: 0 auto;}
+.vidclnisetain-info .icon:hover {border-radius: 30px;}
+.title-boder {padding-bottom: 15px; margin-bottom: 15px; position: relative; }
+.title-boder:before {content: ""; display: inline-block; width: 80px; border-bottom: 4px solid var(--primary-color); position: absolute; bottom: 0; left: 0px; border-radius: 5px; }
+
+.specialities-info .img-box {position: relative;display: block;background-color: #fff;border-radius: 50%;width: 180px;height: 180px;margin: 0 auto 10px; overflow: hidden;}
+.specialities-info .img-box img {width: auto;height: auto;max-width: 100%;max-height: 100%;position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%); border-radius: 100px;}
+.specialities-info {max-width: 250px;margin: 0 auto;}
+.specialities-slider.owl-carousel .owl-nav button i, .top-doctors-slider.owl-carousel .owl-nav button i {color: var(--primary-color);}
+.specialities-info:hover .img-box {background-color: #c0ceff;}
+.app-download-section .image img {  max-width: 100%;  max-height: 300px;}
+
+
+
+/**** 001 ***/
+
+@media only screen and (max-width: 1500px) and (min-width: 1200px) {
+
+.col-xl-2.sidebar-col {width: 25%;}
+.col-xl-10.doctor-list-colum {width: 75%;}
+.doctor-list-col {width: 33.3333%;}
+}
+
+@media (max-width: 1199px) {
+.doctor-list-col {width: 50%;}
+.ticket-book-detail .btn-group .radio-box, .ticket-book-detail nav .nav button.nav-link {width: calc(20% - 15px);}
+.doctcoverSection .container-fluid {max-width: 1000px;}
+}
+
+@media (max-width: 991px) {
+  .section-padding {  padding: 30px 5px;}
+  .section-padding .row.g-5 {  margin: 0 0;--bs-gutter-y: 0;--bs-gutter-x: 0;}
+  .doctor-details {  margin-top: 25px;}
+
+  .sidebar-info .checkbox-main {display: flex; flex-wrap: wrap; }
+  .sidebar-info .checkbox-main .custom_check {margin: 0 15px 10px 0; width: 30.333%; }
+  .doctcoverSection .container-fluid {max-width: 700px; }
+  .font-24 {font-size: 20px; }
+  .btn-box .btn {padding: 11px 10px; font-size: 14px; }
+
+  .vidclnisetain-info {max-width: 160px;}
+  .vidclnisetain-info .icon {min-height: 160px;}
+  .ticket-book-detail .btn-group .radio-box, .ticket-book-detail nav .nav button.nav-link {
+      width: 31%;
+      min-width: calc(33.333% - 15px);
+  }
+  .ticket-book-detail nav .nav button.nav-link {
+      flex-basis: inherit;
+      flex-grow: inherit;
+  }
+}
+
+@media (max-width: 767px) {
+.ticket-book-detail .btn-group .radio-box, .ticket-book-detail nav .nav button.nav-link {width: calc(50% - 15px);}
+.ticket-book-detail nav .nav, .ticket-book-detail .btn-group {justify-content: center;}
+.btn-box button.btn {min-width: 200px;padding: 10px 15px;font-size: 15px;}
+.doctor-list-col, .sidebar-main {width: 100%;max-width: 400px;margin: 10px auto 10px;}
+.sidebar-info .checkbox-main .custom_check {width: 100%;}
+.vidclnisetain-info {margin: 0 auto 15px;}
+.doctor-details .btn-box {width: 100%; max-width: 51%; margin: 0 auto;     min-width: 210px;}
+}
+
+@media (max-width: 479px) {
+.doctor-image {height: 300px;}
+}

@@ -1,0 +1,1801 @@
+
+    .sldboxcoversho_iner .owl-nav i{
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+    .prmosprodmaincoverset .owl-nav i{
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+    .featurebrandlistcover .owl-nav i{
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+    .customerratingbox .owl-nav i{
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+    .ourblogcoverset .owl-nav i{
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+
+
+/********** Banner slider CSS ***********/
+
+.headerbanner_resp{
+    display: none;
+}
+
+.slidercovermin{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slidercovermin .owl-stage-outer a {
+    width: 100% !important;
+}
+
+.slidercovermin .owl-stage-outer a img{
+    aspect-ratio: 95 / 25 !important;
+}
+
+.slidercovermin .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    text-align: center;
+    right: 0;
+}
+
+.slidercovermin .owl-carousel .owl-dot {
+    background: #989898 none repeat scroll 0 0;
+    display: inline-block;
+    border: none;
+    height: 5px!important;
+    margin: 0 5px;
+    width: 22px!important;
+    padding: 0!important;
+}
+
+.slidercovermin .owl-carousel .owl-dot.active {
+    background: var(--primary-color) none repeat scroll 0 0;
+    border: none;
+}
+
+.slidercovermin .owl-carousel .owl-nav .owl-prev {
+    border-radius: 0!important;
+    left: 12px!important;
+    line-height: .5!important;
+    padding-right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: -45px;
+    right: 55px;
+}
+
+.slidercovermin:hover .owl-nav button {
+    opacity: 1 !important;
+}
+
+.leftarrowbox {
+    width: 30px;
+}
+
+.slidercovermin .owl-carousel .owl-nav .owl-next {
+    border-radius: 0!important;
+    right: 12px!important;
+    line-height: .5!important;
+    padding-right: 4px;
+    right: 0;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    border-radius: 0!important;
+    right: 12px!important;
+    line-height: .5!important;
+    padding-right: 4px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    right: 32px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: -45px;
+    right: 7px !important;
+}
+
+.slidercovermin .owl-carousel .owl-nav button {
+    background-color: transparent !important;
+    border-radius: 0;
+    color: transparent;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease 0;
+    height: auto !important;
+    width: auto !important;
+    line-height: 1 !important;
+    font-size: 0 !important;
+    border: 0 solid #ececec;
+}
+
+.slidercovermin .owl-carousel .owl-nav button.owl-prev{
+    right: inherit !important;
+}
+
+.leftarrowboxicon, .rightarrowboxicon {
+    font-size: 30px !important;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+}
+
+.slidercovermin .owl-carousel .owl-stage-outer {
+    pointer-events: inherit;
+}
+
+/********** End Banner slider CSS ***********/
+
+/********* Our Services CSS *********/
+
+    .features-highlight{
+        display: inline-block;
+        width: 100%;
+        background: #59C173;
+        background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+        background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+    }
+
+    .mainset_geneatiofdset {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 26px;
+        padding-top: 32px;
+    }
+
+    .coverset_geneatiofdset {
+        display: inline-block;
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+
+    .inerset_geneatiofdset {
+        display: inline-block;
+        width: 260px;
+        position: relative;
+        padding-left: 65px;
+        text-align: left;
+    }
+
+    .inerset_geneatiofdset img {
+        width: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .inerset_geneatiofdset h3 {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 4px;
+    }
+
+    .inerset_geneatiofdset p {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 400;
+        margin: 0;
+    }
+
+/********* End Our Services CSS *********/
+
+/********* Category Slider CSS *********/
+
+    .categmainbgcoversect {
+        background: #c0ceff;
+        padding: 15px;
+    }
+
+    .shobyhelthbox_cover {
+        display: inline-block;
+        width: 100%;
+        min-height: 150px;
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        box-shadow: inherit;
+        background-color: transparent !important;
+        border-radius: 4px;
+        margin: 5px 0 32px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+
+    /* .tophedboxhome_title {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 4px;
+        margin-bottom: 15px;
+    } */
+
+    .leftnametitlebox p {
+        display: inline-block;
+        width: auto;
+        color: #000000;
+        line-height: 22px;
+        font-weight: 600;
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .leftnametitlebox p::after{
+        content: '';
+        display: inline-block;
+        width: 50%;
+        border-bottom: 4px solid var(--primary-color);
+        position: absolute;
+        bottom: -6px;
+        left: 0px;
+        border-radius: 5px;
+    }
+
+    /* .rightnamebtnbox {
+        display: inline-block;
+        float: right;
+        margin-top: 0;
+    } */
+
+    .sldboxcovershop {
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .sldboxcoversho_iner {
+        display: inline-block;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+
+    .brandcatbox_cover {
+        border: 0;
+        border-radius: 8px;
+        background: #fff;
+        transition: .3s all!important;
+        margin-bottom: 5px!important;
+        overflow: hidden;
+    }
+
+    .brandcatbox_cover .brand-logo-img {
+        margin-top: 0!important;
+        position: relative;
+    }
+
+    .brandcatbox_cover a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .brandcatbox_cover .img_border_main {
+        min-height: auto;
+    }
+
+    .imgsetborderonhov {
+        display: inline-block;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .brandcatbox_cover .img_border_main img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0px;
+        border-radius: 0;
+    }
+
+    .brandcatbox_cover .img_border_main img:hover{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .cattagnam_title {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        min-height: 55px;
+    }
+
+    .cattagnam_title p {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        color: #000000;
+        margin-bottom: 0px;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 500;
+        margin-top: 2px;
+        text-transform: capitalize;
+    }
+
+    .viewallcategboxset{
+        margin: 5px;
+    }
+
+    .viewallcategboxset .brand-logo-img a img {
+        width: 100% !important;
+        min-height: 191px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+/********* End Category Slider CSS *********/
+
+
+/********* Category CSS *********/
+
+.categorylist_box{
+    display: inline-flex;
+    width: 100%;
+    padding: 20px 10px 0;
+}
+
+.categorybox_cover{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.categorytitlebox{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.categorytitlebox p{
+    display: inline-flex;
+    width: auto;
+    color: #000000;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.categorytitlebox p::after {
+    content: '';
+    display: inline-flex;
+    width: 50%;
+    border-bottom: 4px solid var(--primary-color);
+    position: absolute;
+    bottom: -6px;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.allcategory_list{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.categorydet_cover{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 165px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/* .categorydet_cover a::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    border-right: 2px solid #ddd;
+    position: absolute;
+    right: 0;
+    height: 60%;
+} */
+
+.categorydet_cover a{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorydet_cover img{
+    width: 110px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    aspect-ratio: 5/5;
+}
+
+.categorydet_cover p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1b1b1b;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.categorydet_cover i{
+    font-size: 22px;
+    color: var(--primary-color);;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.categorydet_cover:hover a{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/********* End Category CSS *********/
+
+
+/********* Offerbanner Slider CSS *********/
+
+    .offerandrefer_cover{
+        display: inline-block;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .offernewdiswlsetcover {
+        display: inline-block;
+        width: 100%;
+        background: #ffffff;
+        padding: 0;
+    }
+
+    .sldboxcovershop {
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .coveroffersliderset {
+        margin-top: 0px;
+    }
+
+    .offerlisder_paddingset {
+        display: inline-block;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .offerslider_coverboxset {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .offerslider_coverboxset a:hover{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .offerslider_coverboxset img {
+        object-fit: contain;
+        border-radius: 10px;
+        width: 100% !important;
+    }
+
+    .offerlisder_paddingset .owl-nav{
+        display: none;
+    }
+
+/********* End Offerbanner Slider CSS *********/
+
+/********* Pharmacy services CSS *********/
+
+.ourservices_coverset {
+    display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+
+.serivesverifylist_set {
+    display: inline-block;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.serivesimgtext_set {
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+}
+
+.serviceimgset_left {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    text-align: right;
+}
+
+.serviceimgset_left img {
+    background: transparent;
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.servicetextset_right {
+    display: inline-block;
+    width: 65%;
+    float: left;
+}
+
+.servicetextset_right h4 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 12px;
+    padding-left: 18px;
+    line-height: 0.9;
+    margin: 0px;
+}
+
+.servicetextset_right h4 span {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/********* End Pharmacy services CSS *********/
+
+/********* Recommended Slider CSS *********/
+
+    .prmosprodmaincoverset {
+        display: inline-block;
+        width: 100%;
+        background: #c0ceff;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .tophedboxhome_title {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .leftnametitlebox {
+        display: inline-block;
+        float: left;
+        padding-top: 0;
+    }
+
+    .prodsetdiscolor1 .leftnametitlebox p {
+        display: inline-block;
+        width: auto;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 0;
+        color: #0e0c0c;
+        margin: 0;
+    }
+
+    .prmosprodmaincoverset .prodselnsldbox_cover {
+        display: inline-block;
+        width: 100%;
+        background: transparent;
+        padding: 0;
+        margin-bottom: 0;
+        border-radius: 10px;
+    }
+
+    .boxcollg3 {
+        padding: 0 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #fff;
+        margin: 10px;
+        border-radius: 8px;
+    }
+
+    .prmosprodmaincoverset .products_coverset {
+        background-color: transparent;
+        border: 0;
+        border-radius: 6px;
+        transition: .3s all!important;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .products_coverset a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .topimgselimgbox {
+        display: inline-block;
+        width: 100%;
+        padding: 6px 8px 3px;
+        border-radius: 0;
+    }
+
+    .imgselgprod_img {
+        width: 100%;
+        object-fit: contain;
+        overflow: hidden;
+        height: 150px;
+        opacity: 1;
+    }
+
+    .products_coverset .product-content {
+        min-height: 120px;
+        padding: 8px 0px 0px;
+        text-align: left;
+    }
+
+    .prmosprodmaincoverset .prodnamesetbox {
+        display: inline-block;
+        width: 100%;
+        min-height: 66px;
+    }
+
+    .prodnamesetbox h4 {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.4;
+        color: #000000;
+    }
+
+    .prodnamesetbox span{
+        font-size: 13px;
+        font-weight: 500;
+        color: #828282;
+    }
+
+    .product-rating-price-wrapper{
+        display: inline-block;
+        width: auto;
+    }
+
+    .product-price-cart-wrapper {
+        display: inline-block;
+        margin-top: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .product-price{
+        display: inline-block;
+        width: auto;
+    }
+
+    .disprductpriceset{
+        display: inline-block;
+        width: auto;
+        padding-left: 6px;
+    }
+
+    .disprductpriceset .dispriceset{
+        font-size: 14px;
+        display: inline-block;
+        color: #828282!important;
+        font-weight: 400 !important;
+        text-decoration-line: line-through !important;
+    }
+
+    .product_price_wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .newprice {
+        font-size: 14px;
+        display: inline-block;
+        color: var(--secondary-color)!important;
+        font-weight: 600 !important;
+    }
+
+    .offertagbox {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        background: #fff;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 1;
+        min-height: 20px;
+    }
+
+    .offertagbox span {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+        color: #5ba41c!important;
+        display: inline-block;
+    }
+
+    /* .offertagbox::after {
+        content: "";
+        position: absolute;
+        height: 25px;
+        width: 11px;
+        bottom: inherit;
+        right: -10px;
+        background: url(../svg/offertag-icon.svg) no-repeat center;
+        background-size: 10.2px;
+        top: 0px;
+    } */
+
+    .boxcollg3:hover .addcartwish_btn{
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+
+    .addcartwish_btn{
+        display: inline-flex;
+        width: 100%;
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        height: 315px;
+        background: #000;
+        opacity: 0;
+    } 
+
+    .addcartwish_btn a{
+        display: inline-flex;
+        width: auto;
+        justify-content: center;
+    }
+
+    .addcartwish_btn a i{
+        font-size: 30px;
+        margin-right: 8px;
+        color: var(--primary-color);
+    }
+
+/********* End Recommended Slider CSS *********/
+
+/********* Futuredbrand Slider CSS *********/
+
+    .featurebrandlistcover {
+        background: #EBEDF4;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .featurebrandlistcover .tophedboxhome_title {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 0;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .brandlistcompanyset{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .futurebrandboxcover .owl-carousel .owl-nav button.owl-next, .futurebrandboxcover .owl-carousel .owl-nav button.owl-prev{
+        top: -42px;
+    }
+    .topheadbrandtextset {
+        display: inline-block;
+        float: left;
+        padding-top: 5px;
+    }
+
+    .featurebrandlistcover .topheadbrandtextset p {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 0;
+        color: #0e0c0c;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+
+    .featurebrandlistcover .topheadbrandtextset p::after {
+        content: '';
+        display: inline-block;
+        width: 50%;
+        border-bottom: 4px solid var(--primary-color);
+        position: absolute;
+        bottom: -6px;
+        left: 0px;
+        border-radius: 5px;
+    }
+
+    .futurebrandboxcover{
+        display: inline-block;
+        width: 100%;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .futurebrandlistcoverset{
+        display: inline-block;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .brandslider_coverboxset {
+        display: inline-block;
+        width: 100%;
+        background: #fff;
+        padding: 15px;
+        min-height: 100px;
+        border-radius: 10px;
+    }
+
+    .brandslider_coverboxset a {
+        display: inline-block;
+    }
+
+    .brandslider_coverboxset a img {
+        object-fit: contain;
+        border-radius: 0px;
+        width: 140px !important;
+        height: 65px;
+    }
+
+    .brandslider_coverboxset:hover a{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+/********* End Futuredbrand Slider CSS *********/
+
+/********* Dealoftheday Slider CSS *********/
+
+.dealofthedaysboxcover{
+    background: #e0fff2;
+}
+
+/********* End Dealoftheday Slider CSS *********/
+
+
+/********* Userreview Section CSS *********/
+
+    .customerratingbox{
+        display: inline-block;
+        width: 100%;
+        background: #c0ceff;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .testimonnrewdesigmain_cover {
+        display: inline-block !important;
+        width: 100% !important;
+        background-color: #ffffff;
+        min-height: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .testimonnrewdesigmain_ret {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .cutomerrating_set {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .cutomerrating_set i {
+        display: inline-block;
+        width: auto;
+        color: #FEA800;
+        font-size: 18px;
+        margin-right: 4px;
+    }
+
+    .testimonnrewdesigmain_ret .customerfeedback_set {
+        display: inline-block;
+        width: 100%;
+        color: #828282;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .customernameimg_set {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .customerimage_cover {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .customerimage_cover img {
+        display: inline-block !important;
+        width: 56px !important;
+        text-align: center;
+    }
+
+    .customernametext_cover {
+        display: inline-block;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .customernametext_cover h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 0;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .customernametext_cover p{
+        font-size: 14px;
+        color: #828282;
+        margin-bottom: 0;
+    }
+
+    .customernametext_cover span{
+        font-size: 14px;
+        color: rgb(72, 72, 214);
+    }
+
+    .allcustomerreviewcover .owl-item{
+        padding: 15px 5px;
+        padding-top: 5px;
+    }
+
+/********* End Userreview Section CSS *********/
+
+/********* Refernow Section CSS *********/
+
+    .referandearnbox_cover{
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background: #C33764;
+        background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+        background: linear-gradient(to right, #1D2671, #C33764);
+    }
+
+    .referandearn_set{
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referandearn_set img{
+        width: 100%;
+        max-width: 250px;
+        padding-bottom: 15px;
+    }
+
+    .referandearn_set h3{
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+
+    .referandearn_set a{
+        background: var(--primary-color);
+        color: #fff;
+        font-size: 15px;
+        padding: 8px 17px;
+        border-radius: 8px;
+    }
+
+/********* End Refernow Section CSS *********/
+
+/********* Dowapp Section CSS *********/
+
+    .appdownloadlistcoverset {
+        display: inline-block;
+        width: 100%;
+        background: #EBEDF4;
+        border-radius: 0;
+        margin-bottom: 12px;
+    }
+
+    .appdownloadlistcover_right {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        padding-top: 90px;
+        padding-left: 160px;
+    }
+
+    .downldapplkogo {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .downldapplkogo h3 {
+        font-size: 22px;
+        color: #000000;
+    }
+
+    .appplaystorebtnset {
+        display: inline-block;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .appplaystorebtnset a {
+        display: inline-block;
+        width: auto;
+        margin-right: 3px;
+        margin-left: 3px;
+        margin-bottom: 6px;
+    }
+
+    .appplaystorebtnset a img {
+        height: 40px;
+    }
+
+    .enternumerlistbox {
+        display: inline-block;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .enternumerlistbox p {
+        display: inline-block;
+        width: 100%;
+        color: #000;
+        margin: 0;
+    }
+
+    .mobilesendlinkapp {
+        display: inline-block;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .mobilesendlinkapp .form-group {
+        position: relative;
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+
+    .mobilesendlinkapp .form-group label {
+        color: #000000;
+        position: absolute;
+        margin: 0;
+        top: 16px;
+        left: 10px;
+        border-right: 1px solid #000000;
+        padding-top: 1px;
+        padding-right: 8px;
+        line-height: 1;
+    }
+
+    .mobilesendlinkapp .form-group input {
+        border: 0;
+        border-radius: 8px;
+        width: 100%;
+        padding-left: 55px;
+        height: 45px;
+        padding-top: 9px;
+        font-size: 14px;
+    }
+
+    .mobilesendlinkapp a {
+        display: inline-block;
+        width: auto;
+        background: var(--secondary-color);
+        font-size: 14px;
+        color: #ffffff;
+        padding: 10px 20px 10px;
+        border-radius: 8px;
+        height: 45px;
+        padding-top: 12px;
+        margin-left: 12px;
+        font-weight: 400;
+    }
+
+    .appdownloadlistcover_left {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+
+    .appdownloadlistcover_left img {
+        width: 80%;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+/********* End Dowapp Section CSS *********/
+
+/********* Blog Section CSS *********/
+
+    .ourblogcoverset {
+        display: inline-block;
+        width: 100%;
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .listofblogcoverset{
+        padding-top: 0px;
+    }
+
+    .listofblogcoverset .bloglistdeta_iner {
+        display: inline-block;
+        width: 100%;
+        padding: 8px;
+        float: none;
+    }
+
+    .allblogdatacoverset {
+        display: inline-block;
+        width: 100%;
+        background: #fff;
+        -webkit-box-shadow: inherit;
+        -moz-box-shadow: inherit;
+        box-shadow: inherit;
+        border-radius: 0;
+        overflow: hidden;
+        padding: 5px;
+        -webkit-box-shadow: 3px 4px 16px -7px rgba(0,0,0,0.16);
+        -moz-box-shadow: 3px 4px 16px -7px rgba(0,0,0,0.16);
+        box-shadow: 3px 4px 16px -7px rgba(0,0,0,0.16);
+        margin: 0;
+    }
+
+    .bloglistdeta_img {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .listofblogcoverset .bloglistdeta_img img {
+        height: 200px !important;
+        border-radius: 9px;
+        border-radius: 0;
+        object-fit: cover;
+        border: 0;
+        width: 100%; 
+    }
+
+    .listofblogcoverset .bloglistdeta_detail {
+        padding: 8px 0;
+    }
+
+    .listofblogcoverset .bloglistdeta_detail h3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5;
+        font-size: 16px;
+        width: 100%;
+        color: #000000;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 0;
+    }
+
+    .listofblogcoverset .blog_content {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .listofblogcoverset .bloglistdeta_detail p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0;
+        width: 100%;
+        color: #828282;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .listofblogcoverset .bloglistdeta_detail a {
+        font-size: 13px;
+        color: var(--secondary-color);
+        font-weight: 500;
+    }
+
+    .rightnamebtnbox {
+        display: inline-block;
+        float: right;
+        margin-right: 0;
+        margin-top: 0px;
+    }
+
+    .rightnamebtnbox .viewallbtnset {
+        background-color: transparent;
+        font-size: 13px;
+        color: var(--primary-color);
+        font-weight: 500;
+    }
+
+    .ourblogcoverset .owl-carousel .owl-nav button.owl-prev {
+        top: -40px;
+        right: 100px;
+    }
+
+    .ourblogcoverset .owl-carousel .owl-nav button.owl-next {
+        top: -40px;
+        right: 64px !important;
+    }
+
+/********* End Blog Section CSS *********/
+
+/********* Ourcompnay-policy Section CSS *********/
+
+.ourcompanytextboxset{
+    display: inline-block;
+    width: 100%;
+    background: #EBEDF4;
+    border-radius: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.companyprofiletext_cover {
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.companyprofiletext_cover p{
+    font-size: 13px;
+    color: #2C2A2A;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.companyprofiletext_cover h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C2A2A;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/********* End Ourcompnay-policy Section CSS *********/
+
+.healthpackagelist_set .tophedboxhome_title{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.customerratingbox .tophedboxhome_title{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.ourblogcoverset .tophedboxhome_title{
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+    /* Home Media Queries */
+
+@media (max-width: 1300px){
+    .rightnamebtnbox{
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 1199px){ 
+    .rightarrowbtncover{
+        width: 35px;
+        height: 35px;
+    }
+    .rightarrowbtncover img{
+        width: 20px;
+    }
+    .inerset_geneatiofdset{
+        width: 225px;
+    }
+    .referandearn_set img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1170px){
+    .appdownloadlistcover_right{
+        padding-top: 35px;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 1050px){
+    .appdownloadlistcover_right {
+        padding-top: 35px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 991px){
+    .inerset_geneatiofdset img {
+        left: 10px;
+        top: 5px;
+        width: 40px;
+    }
+    .inerset_geneatiofdset img {
+        left: 10px !important;
+        top: 5px !important;
+        width: 40px !important;
+    }
+    .healthpackage_left{
+        display: none;
+    }
+    .healthpackage_right{
+        width: 100%;
+    }
+    .packagealldetailcover{
+        min-height: auto;
+        padding: 30px;
+    }
+    .appdownloadlistcover_left img{
+        width: 100%;
+    }
+    .rightarrowbtncover{
+        right: 20px;
+    }
+    .serivesverifylist_set{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .referandearn_set h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 960px){
+    .mainset_geneatiofdset {
+        padding-bottom: 5px !important;
+        padding-top: 20px !important;
+    }
+    .coverset_geneatiofdset {
+        width: 50% !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 850px){
+    .appdownloadlistcover_left{
+        display: none;
+    }
+    .appdownloadlistcover_right{
+        width: 100%;
+        padding-bottom: 25px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .mobilesendlinkapp .form-group{
+        width: 65%;
+    }
+}
+
+@media (max-width: 780px){
+    .leftarrowbox {
+        width: 25px;
+    }
+    .rightarrowbox {
+        width: 25px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        right: 46px;
+    }
+    .bookappointmentcover {
+        padding-top: 5px;
+    }
+    .healthpackboxcover {
+        padding-top: 5px;
+    }
+    .allcustomerreviewcover .owl-item {
+        padding: 7px 5px;
+    }
+    .ourservices_coverset{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px){    
+    .owl-nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        position: inherit;
+        top: 0;
+    }
+    .rightnamebtnbox{
+        margin-right: 0;
+    }
+    .prodselnsldbox_cover .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+        padding: 4px !important;
+    }
+    .categboxlistboxcover .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+        padding: 4px !important;
+    }
+    .futurebrandlistcoverset .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+        padding: 4px !important;
+    }
+    .slidercovermin .owl-carousel .owl-nav .owl-prev{
+        position: absolute;
+        top: 50%;
+        opacity: 1;
+    }
+    .slidercovermin .owl-carousel .owl-nav .owl-next{
+        position: absolute;
+        top: 50%;
+        opacity: 1;
+    }
+    .referandearn_set a{
+        padding: 5px 14px;
+    }
+    .viewallcategboxset .brand-logo-img a img{
+        min-height: auto;
+    }
+    .headerbanner_resp{
+        display: block;
+    }
+    .headerbanner_resp .mainbannersilderbox .owl-carousel .owl-item img {
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 12 / 5 !important;
+    }
+    .headerbanner_web{
+        display: none;
+    }
+    .categorydet_cover{
+        min-height: 140px;
+    }
+}
+
+@media (max-width: 650px){
+    .categmainbgcoversect{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .offerlisder_paddingset{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .prmosprodmaincoverset{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .featurebrandlistcover{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .doctorservicescoverbox{
+        padding-top: 5px;
+    }
+    .healthpackagedetailcover{
+        padding: 15px 5px 0;
+    }
+    .customerratingbox{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .appdownloadlistcoverset{
+        margin-bottom: 10px;
+    }
+    .ourblogcoverset{
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    .listofblogcoverset {
+        padding-top: 0;
+    }
+    .ourcompanytextboxset{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .leftnametitlebox{
+        width: 75%;
+    }
+    .leftnametitlebox p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 576px){
+    .serivesimgtext_set{
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+        border-right: 0;
+        padding-left: 0;
+    }
+    .serviceimgset_left {
+        width: 50%;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .serviceimgset_left img {
+        width: 62px;
+        height: 84px;
+    }
+    .servicetextset_right {
+        width: 50%;
+        text-align: left;
+    }
+    .servicetextset_right h4 {
+        font-size: 22px !important;
+        padding: 20px 0 20px 0;
+    }
+    .categorydet_cover p{
+        font-size: 14px;
+    }
+    .allcategory_list .col-md-3{
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 550px){
+    .mobilesendlinkapp .form-group {
+        width: 100%;
+    }
+    .mobilesendlinkapp a{
+        margin-top: 12px;
+        margin-left: 0;
+    }
+    .inerset_geneatiofdset h3{
+        font-size: 16px;
+    }
+    .inerset_geneatiofdset img{
+        width: 32px !important;
+    }
+    .alldoctordatacoverset{
+        padding-right: 0;
+    }
+    .ourservicescoverbox{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .enternumerlistbox{
+        padding-top: 10px;
+    }
+    .mobilesendlinkapp{
+        padding-top: 13px;
+    }
+    .appdownloadlistcover_right{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .rightnamebtnbox{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 479px){
+    .appplaystorebtnset a img {
+        height: 30px;
+    }
+    .mobilesendlinkapp a{
+        padding: 2px 15px 2px;
+        height: 42px;
+        line-height: 2.5;
+    }
+    .companyprofiletext_cover{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .listofblogcoverset .bloglistdeta_iner{
+        padding-bottom: 0;
+    }
+    .packagealldetailcover{
+        padding: 20px;
+    }
+    .healthpackagelistset{
+        padding-bottom: 10px;
+    }
+    .brandslider_coverboxset a img{
+        width: 100px !important;
+    }
+    .referandearn_set h3 {
+        font-size: 14px;
+    }
+    .leftarrowboxicon, .rightarrowboxicon{
+        font-size: 24px !important;
+        height: 28px;
+        width: 28px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 460px){
+    .coverset_geneatiofdset {
+        width: 100% !important;
+    }
+    .inerset_geneatiofdset {
+        text-align: center;
+    }
+    .inerset_geneatiofdset img {
+        width: 42px !important;
+        top: 5px !important;
+        left: 10px !important;
+    }
+    .inerset_geneatiofdset {
+        width: 260px;
+    }
+    .allcategory_list .col-md-3 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 414px){
+    .prmosprodmaincoverset{
+        margin-bottom: 15px;
+    }
+    .featurebrandlistcover{
+        margin-bottom: 15px;
+    }
+    .categmainbgcoversect{
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .healthpackagedetailcover{
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+    .customerratingbox{
+        margin-bottom: 15px;
+    }
+    .appdownloadlistcover_right{
+        padding: 15px;
+    }
+    .appplaystorebtnset{
+        margin-top: 15px;
+    }
+    .bookpackagesbtnset{
+        padding-top: 10px;
+    }
+    .offerlisder_paddingset .single-brand-logo{
+        margin: 10px 5px !important;
+    }
+}
+
+@media (max-width: 380px){
+    .prmosprodmaincoverset{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .featurebrandlistcover{
+        padding-top: 10px;
+    }
+    .leftnametitlebox p{
+        font-size: 16px;
+    }
+    .healthpackagenameset{
+        width: 100%;
+    }
+    .leftnametitlebox{
+        width: 100%;
+    }
+    .ourblogcoverset .leftnametitlebox{
+        width: 75%;
+    }
+    .packagenamedisset h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px){
+    
+}

@@ -1,0 +1,63 @@
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-900 {
+  font-weight: 900;
+}
+.color-blue {
+  color: #37c36f;
+}
+.color-black {
+  color: #000000;
+}
+.color-light-black {
+  color: #1b1b1b;
+}
+
+
+.color-green {
+  color: #3CCF4E;
+}
+.bg-color-blue {
+  background-color: #37c36f;
+}
+.bg-color-green {
+  background-color: #3CCF4E;
+}
+
+.line-height-normal {
+    line-height: normal;
+}
